@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #080B11; /* Deep Cyber Dark */
+  --color-cardBg: #0F1420;
+  
+  --color-primary-400: #C084FC; /* Neon Purple Light */
+  --color-primary-500: #A855F7; /* Neon Purple */
+  --color-primary-600: #9333EA;
+  
+  --color-accent-400: #F472B6; /* Neon Pink */
+  --color-accent-500: #EC4899;
+
+  --shadow-neon-purple: 0 0 20px rgba(168, 85, 247, 0.2);
+  --shadow-neon-pink: 0 0 20px rgba(236, 72, 153, 0.2);
+}
+
+:root {
+  background-color: #080B11;
+  color: white;
+}
